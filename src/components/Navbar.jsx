@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Home from "./Home";
-import About from "../pages/About";
-import Projects from "../pages/Projects";
-import Contact from "../pages/Contact";
+// import Home from "./Home";
+// import About from "../pages/About";
+// import Projects from "../pages/Projects";
+// import Contact from "../pages/Contact";
 import "../css/Navbar.css";
 
 export const Navbar = () => {
