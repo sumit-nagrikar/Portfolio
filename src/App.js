@@ -1,9 +1,35 @@
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Navbar } from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+// import { Route, Routes } from "react-router-dom";
 
+
+//style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "stretch" }}
 function App() {
   return (
-    <div className="App">
-      <h1>SUmit Nagrikar</h1>
+     <div className="App" > 
+        <div>
+          <Navbar />
+          <Home/>
+          <About/>
+          <Projects/>
+          <Contact/>
+
+
+          {/* for routing
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/projects" element={<Projects/>} />
+            <Route path="/contact" element={<Contact/>} />
+          </Routes> */}
+
+        </div>
+      
     </div>
   );
 }

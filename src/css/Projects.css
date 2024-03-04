@@ -1,0 +1,25 @@
+.container-projects {
+    color: white;
+    background-color:#0b0918;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: 700px;
+
+}
+
+.container-projects h1 {
+    display: inline;
+    padding: 4px 50px;
+    margin-bottom: 50px;
+    background-color: purple;
+    color: white;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.container-projects p {
+    color: white;
+    font-size: 17px;
+}

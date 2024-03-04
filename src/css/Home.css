@@ -1,0 +1,17 @@
+img {
+     /* Set the desired height */
+    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
+    overflow: hidden;
+    z-index: 1;
+    max-width: 900px;
+    height: 800px;
+    margin-right: 100px;
+    margin-top: 70px;
+    border-radius: 8px solid white;
+    filter: brightness(90%);
+}
+
+.bg {
+    background-color:#0b0918;
+    overflow: hidden;
+}

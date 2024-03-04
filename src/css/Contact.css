@@ -1,0 +1,48 @@
+.container-contact {
+    background-color:#0b0918;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    height: 700px;
+
+}
+
+h1 {
+    display: inline;
+    padding: 4px 50px;
+    margin-bottom: 50px;
+    background-color: purple;
+    color: white;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.container-contact p{
+    color: white;
+    font-size: 17px;
+}
+
+.contact-form{
+    width: 1000px;
+    height: 600;
+    color: white;
+    text-align: center;
+}
+/* .form-elements{
+    margin: 10px;
+    font-size: 20px;
+} */
+
+/* input {
+    margin-left: 60px;
+}
+
+textarea{
+    margin-left: 60px;
+}
+#message{
+    text-align: right; 
+    margin-left: 210px;
+
+} */

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* .img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+} */
+
+.custom-size {
+  max-width: 200px; /* Set maximum width */
+  max-height: 150px; /* Set maximum height */
 }
