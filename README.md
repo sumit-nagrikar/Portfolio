@@ -59,6 +59,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 ### Advanced Configuration
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2cbe755a-cb9a-4c4f-bd6c-4d07ed8a83a5/deploy-status)](https://app.netlify.com/sites/sumit-nagrikar/deploys)
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
