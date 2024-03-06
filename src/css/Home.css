@@ -1,17 +1,10 @@
-img {
-     /* Set the desired height */
-    border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
-    overflow: hidden;
-    z-index: 1;
-    max-width: 900px;
-    height: 800px;
-    margin-right: 100px;
-    margin-top: 70px;
-    border-radius: 8px solid white;
-    filter: brightness(90%);
-}
+/* Set the desired height and make it responsive */
 
-.bg {
-    background-color:#0b0918;
+
+.background {
+    background-color: #0b0918;
     overflow: hidden;
+}
+.purple{
+    color: purple;
 }

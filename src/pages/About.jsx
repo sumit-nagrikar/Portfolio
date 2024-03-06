@@ -1,10 +1,10 @@
-import React, { useRef }from "react";
+import React from "react";
 import "../css/About.css";
 
 const About = () => {
-  const myElementRef = useRef(null);
+  // const myElementRef = useRef(null);
   return (
-    <div ref={myElementRef}>
+    <div >
     <div className="container-about" id="about">
       <p className="text-center">______________________________________________________________________________________________________________________</p>
       <h1>About Me</h1>
@@ -19,7 +19,7 @@ const About = () => {
         technologies. When I'm not coding, you can find me exploring the latest
         design trends, experimenting with new coding techniques, or enjoying a
         good cup of coffee.
-        <p>Let's collaborate and build something amazing together!</p>
+        <span>Let's collaborate and build something amazing together!</span>
       </p>
       <div className="skills">
         <h3>Why work with me?</h3>

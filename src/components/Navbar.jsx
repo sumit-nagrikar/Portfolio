@@ -1,9 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-// import Home from "./Home";
-// import About from "../pages/About";
-// import Projects from "../pages/Projects";
-// import Contact from "../pages/Contact";
 import "../css/Navbar.css";
 
 export const Navbar = () => {
@@ -29,26 +24,14 @@ const handleButtonClick = (component) => {
     { id: "contact", text: "Contact" },
   ];
 
-  // const renderComponent = () => {
-  //   switch (selectedComponent) {
-  //     case "about":
-  //       return <About />;
-  //     case "projects":
-  //       return <Projects />;
-  //     case "contact":
-  //       return <Contact />;
-  //     default:
-  //       return <Home />;
-  //   }
-  // };
 
   return (
     <div>
       <nav className="overflow-hidden navbar navbar-expand-lg fixed-top" style={{ backgroundColor: "#1b0f25" }}>
         <div className="container-fluid">
-          <Link className="navbar-brand fw-bolder mx-5 font-monospace " to="/">
+          <a className="navbar-brand fw-bolder mx-5 font-monospace " href="/">
             <h2 className=" ">Sumit Nagrikar</h2>
-          </Link>
+          </a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mb-2 mb-lg-0 ms-auto ">
               {links.map((link) => (

@@ -5,10 +5,6 @@ import Home from "./components/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
-// import { Route, Routes } from "react-router-dom";
-
-
-//style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "stretch" }}
 function App() {
   return (
      <div className="App" > 
