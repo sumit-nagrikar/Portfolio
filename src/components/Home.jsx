@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import sumitImage from "../assets/sumit2.png";
-import "../css/Home.css"
+import "../css/Home.css";
+
 function Home() {
   // Create Ref element.
   const el = useRef(null);
@@ -21,27 +22,56 @@ function Home() {
     };
   }, []);
 
-  // const resumePdfUrl =
-  //   "https://drive.google.com/file/d/1FPRQvbAOy98CPHZaP4QckVGhkvyPOVD3/view?usp=drive_link";
-  // const githubUrl = "https://github.com/sumit-nagrikar";
+  const resumePdfUrl =
+    "https://drive.google.com/file/d/1FPRQvbAOy98CPHZaP4QckVGhkvyPOVD3/view?usp=drive_link";
+  const githubUrl = "https://github.com/sumit-nagrikar";
 
   return (
-    <>
-      <div className="container-fluid bg" id="home">
+    <div className="background">
+      <div className="container">
         <div className="row">
-          <div className="col-12 col-md-4 col-lg-3 col-xl-2">
-            <div className="container position-relative start-50 translate-middle" style={{ zIndex: "1", top: "20vh", maxWidth: "600px" }}>
+          {/* Card component contents directly in the first column */}
+          <div className="col-sm-12 col-md-6 col-lg-6 text-start text-white d-flex align-items-center justify-content-center">
+            <div className="">
+              <h2>
+                Hi, My name is <span className="purple">Sumit</span>
+              </h2>
+              <h2>and I am a passionate</h2>
+              {/* Element to contain animated typing */}
+              <span className="purple fs-1" ref={el}></span>
+              <div className="mt-3">
+                <a
+                  href={resumePdfUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-light me-2"
+                  download
+                >
+                  Download Resume
+                </a>
+                <a
+                  href={githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-secondary"
+                >
+                  Visit Github
+                </a>
+              </div>
             </div>
           </div>
 
-          <div className="col-md-8">
-            <div className="position-relative">
-              <img src={sumitImage} alt="Sumit" className="img-fluid" />
-            </div>
+          {/* Image on the right */}
+          <div className="col-sm-12 col-md-6 col-lg-6 text-center">
+            <img
+              src={sumitImage}
+              alt="abc"
+              className="img-fluid w-100 mb-md-0 rounded-circle"
+            />
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

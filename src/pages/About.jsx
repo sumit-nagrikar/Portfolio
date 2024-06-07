@@ -23,9 +23,9 @@ const About = () => {
       </p>
       <div className="skills">
         <h3>Why work with me?</h3>
-        <p>Analytical <span class="checkmark">&#x2713;</span> Results driven </p>
-        <p>Clear communicator <span class="checkmark">&#x2713;</span> Deadline conscious</p>
-        <p>Strong interpersonal skills <span class="checkmark">&#x2713;</span> Big-picture problem solver</p>
+        <p>Analytical <span className="checkmark">&#x2713;</span> Results driven </p>
+        <p>Clear communicator <span className="checkmark">&#x2713;</span> Deadline conscious</p>
+        <p>Strong interpersonal skills <span className="checkmark">&#x2713;</span> Big-picture problem solver</p>
       </div>
     </div>
     </div>

@@ -2,57 +2,30 @@
   display: flex;
   align-items: center;
   background-color: #1b0f25;
-  padding: 10px 20px;
 }
 
-.navbar-brand h2 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
-  margin: 0;
-}
-.navbar-brand a {
- text-decoration: none;
-}
+
+
 
 .navbar-toggler {
-  background: none;
-  border: none;
+
   color: white;
-  font-size: 16px;
+  font-size: 10px;
   cursor: pointer;
-  margin-left: auto;
-  display: none;
+  
 }
 
 .navbar-menu {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 100%;
-  left: 0;
   background-color: #1b0f25;
-  width: 100%;
-  transition: transform 0.3s ease-in-out;
-  transform: translateY(-100%);
 }
 
 .navbar-menu.active {
-  transform: translateY(0);
+  color: #73518f;
+
 }
 
-.navbar-nav {
-  list-style: none;
-  padding: 0;
-}
 
 .nav-link {
   color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  display: block;
+  
 }
-
-.nav-link.active {
-  background-color: #4CAF50;
-}
-
