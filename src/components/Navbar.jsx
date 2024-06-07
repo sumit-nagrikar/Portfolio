@@ -49,9 +49,6 @@ const handleButtonClick = (component) => {
         </div>
       </nav>
 
-      {/* <div className="container-fluid w-auto p-0 ">
-        {renderComponent()}
-      </div> */}
     </div>
   );
 };
